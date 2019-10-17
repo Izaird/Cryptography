@@ -1,0 +1,14 @@
+Ejercicio 3
+p=99823
+alpha = 21
+k = 103
+a = 59
+x = 81
+
+
+β = α^a mod p
+
+Y1 = α^K mod p
+Y2 = X (β^k mod p) mod p
+
+Y2(Y1^(p-a-1) mod p  === x

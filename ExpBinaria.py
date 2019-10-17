@@ -30,9 +30,10 @@ def expBinaria(x, exp, clase, printProcess):
 			print(x, "^", expvariable, "=", result, "mod", clase)
 
 	return result
-x = int(input("Ingrese x: "))
-exp = int(input("Ingrese Exp: "))
-clase = int(input("Ingrese la clase: "))
-print("")
-result = expBinaria(x, exp, clase, True)
-print("Resultado = ", result)
+while True:
+    x = int(input("Ingrese α: "))
+    exp = int(input("Ingrese Exp: "))
+    clase = int(input("Ingrese la clase: "))
+    print("")
+    result = expBinaria(x, exp, clase, True)
+    print("Resultado = ", result)
